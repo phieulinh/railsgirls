@@ -23,7 +23,6 @@
         <li>
           <% if user_signed_in? %>
             <div class="dropdown">
-               margin-right: 2cm;
               <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
                 <%= image_tag current_user.gravatar_url width: '10%' %>
                 Logged in as <strong><%= current_user.email %></strong>.
