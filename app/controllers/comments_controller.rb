@@ -27,8 +27,8 @@ class CommentsController < ApplicationController
     @comment = Comment.new(comment_params)
 
     respond_to do |format|
-      if @comment.save
-        format.html { redirect_to idea_path(@comment.idea_id), notice: 'Đã bình luận thành công.'}
+      if @comment.save 
+        format.html { redirect_to @comment, notice: 'Comment was successfully created.' }
         format.json { render :show, status: :created, location: @comment }
       else
         format.html { render :new }

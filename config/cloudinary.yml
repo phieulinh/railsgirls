@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: phieulinh
+  api_key: '398335643783666'
+  api_secret: UwbMFWrH05_nIzsfog8NcvkO1A4
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: phieulinh
+  api_key: '398335643783666'
+  api_secret: UwbMFWrH05_nIzsfog8NcvkO1A4
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: phieulinh
+  api_key: '398335643783666'
+  api_secret: UwbMFWrH05_nIzsfog8NcvkO1A4
+  enhance_image_tag: true
+  static_image_support: false
